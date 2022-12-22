@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "LCD-Digits";
+  src: url("fonts/digital-7.regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rectangle {
+  /* border: 2rem solid rgb(101, 101, 197); */
+  border: 2rem solid rgb(133, 133, 185);
+  background-color: rgba(0, 0, 0, 0.866);
+  height: 50vh;
+  width: 50vw;
+  border-radius: 3rem;
+  margin-top: 25vh;
+  margin-left: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.digit-box {
+  width: 9rem;
+}
+
+/* .rectangle::before {
+  content: "";
+  height: 1.5rem;
+  width: 2rem;
+  background-color: aqua;
+  top: 0%;
+  left: 0;
+} */
+
+.time {
+  display: flex;
+  color: rgb(0, 255, 0);
+  gap: 1;
+}
+
+.item {
+  font-size: 9rem;
+  font-family: "LCD-Digits";
+}
+
+.hr--12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  font-size: 1rem;
+}
+
+.colon {
+  color: rgb(0, 255, 0);
+}
+
+.disp {
+  color: rgb(0, 96, 19);
+}
+
+.day {
+  font-size: 1.2rem;
+  color: rgb(217, 208, 40);
+  font-family: "LCD-Digits";
+}
